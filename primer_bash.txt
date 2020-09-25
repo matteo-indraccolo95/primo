@@ -1,0 +1,19 @@
+ls = mostra il conentuto di una cartella
+ls -l= mostra il contenuto di una cartella in modo dettagliato
+mkdir <nome cartella> = crea una nuova cartella
+mv <a> <b> = sposta o rinaomina una cartella o file
+cp <a> <b> = copia file ma devono essere solo essere file
+cp -r = stessa cosa di cp ma può copiare le cartelle
+rm = rimuove definitivamente
+cat= stampa il contunuto di un file
+nano = permette di scrivere dentro ad un file
+touch <nome file>= crea un file
+echo = scrive su terminale
+echo "<contenuto>"> <nome file> = sovrascrive file o scrive dentro ad un file
+echo "<contenuto" >> <nome file> = scrive dentro un file mettendo il conenuto sotto il conenuto già esistente
+
+exit = esci da terminale
+
+ 
+head -n <nuemro di righe> <nome file> = stampo le prime <numero di righe> di <nome file>
+tail -n< nome fail> = stampa le ultime righe del <nome file>
