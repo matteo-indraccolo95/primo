@@ -17,3 +17,28 @@ exit = esci da terminale
  
 head -n <nuemro di righe> <nome file> = stampo le prime <numero di righe> di <nome file>
 tail -n< nome fail> = stampa le ultime righe del <nome file>
+
+_____________________________________________________
+
+all'interno della repository, possiamo vedere come si sviluppi una specie di albero con un ramo principale e dei rami 
+che si sviluppano, al momento in cui creiamo la repository noi stiamo creando il ramo principale il ramo master.
+i rami sono costruiti con il collegamento con dei pallini, ogni pallino si chiamo commit.
+solitamente abbiamo due rami, uno principale, il master e uno dev che riguardo lo sviluppo, il development.
+_____________________________________________________
+
+git init = mi permette di creare un file git che verrà visto come un repository
+git status = mostra il contenuto della cartella .git
+git commit -m = prende tutto quello che c'è nello stage( ovvero quello che io decido di salvare) e lo salva come uno snapshot così da poter sempre ritornare in dietro
+git commit -m "nome etichetta"= ti permette di salvare i file che sono stati aggiunti in stage alla commit per poterli conservare all'interno del pc.
+git add = permette di aggiungere file dalla repository allo stage per poterli salvare in git commit.
+git log -- oneline --graph = mi permette di poter vedere tutte le commit all'interno della mia repository
+git branch nome ramo = mi permette di creare un nuovo ramo( tutto quello che faccio su questo branch 
+                        rimane su questo branche, se mi sposto da un branch all'altro quello che accade che la cartella in cui siamo la commit in cui sono diventa uguale alla commit in cui vado)
+git checkout= mi permette di spostarmi all'interno di un altra commit
+git branch = senza argomenti mi permette di vedere tutti i miei branch
+git merge <nome commit che vuoi unire alla tua>= permette di unire due commit insieme andando a mecciare le differenze.
+git branch -d nome del branch = permette di cancellare i branch
+gift checkout -b commit = ti permette di spostarti su un altra commit
+
+_________________________________________________________________
+la commit che unisce due commit si chiama MERCH
